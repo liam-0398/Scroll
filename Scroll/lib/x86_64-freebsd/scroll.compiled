@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1769832948"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/NFS/Pascal/Lazarus/NewScroll/lib/x86_64-freebsd -Fu/NFS/Pascal/Lazarus/NewScroll/ -Fu/usr/local/share/lazarus-4.6/components/synedit/units/x86_64-freebsd/gtk2 -Fu/usr/local/share/lazarus-4.6/lcl/units/x86_64-freebsd/gtk2 -Fu/usr/local/share/lazarus-4.6/lcl/units/x86_64-freebsd -Fu/usr/local/share/lazarus-4.6/components/lazedit/lib/x86_64-freebsd -Fu/usr/local/share/lazarus-4.6/components/freetype/lib/x86_64-freebsd -Fu/usr/local/share/lazarus-4.6/components/lazutils/lib/x86_64-freebsd -Fu/usr/local/share/lazarus-4.6/packager/units/x86_64-freebsd -FU/NFS/Pascal/Lazarus/NewScroll/lib/x86_64-freebsd/ -FE/NFS/Pascal/Lazarus/NewScroll/ -o/NFS/Pascal/Lazarus/NewScroll/scroll -dLCL -dLCLgtk2 scroll.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

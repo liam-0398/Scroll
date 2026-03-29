@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/home/liam/fpcupdeluxe/fpc/bin/x86_64-linux/fpc.sh" Date="1774024628"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O3 -gw3 -gl -XX -l -vewnhibq -Fi/NFS/Pascal/Lazarus/NewScroll/lib/x86_64-linux -Fu/NFS/Pascal/Lazarus/NewScroll/ -Fu/home/liam/fpcupdeluxe/lazarus/components/synedit/units/x86_64-linux/gtk2 -Fu/home/liam/fpcupdeluxe/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/home/liam/fpcupdeluxe/lazarus/lcl/units/x86_64-linux -Fu/home/liam/fpcupdeluxe/lazarus/components/lazedit/lib/x86_64-linux -Fu/home/liam/fpcupdeluxe/lazarus/components/freetype/lib/x86_64-linux -Fu/home/liam/fpcupdeluxe/lazarus/components/lazutils/lib/x86_64-linux -Fu/home/liam/fpcupdeluxe/lazarus/packager/units/x86_64-linux -FU/NFS/Pascal/Lazarus/NewScroll/lib/x86_64-linux/ -FE/NFS/Pascal/Lazarus/NewScroll/ -o/NFS/Pascal/Lazarus/NewScroll/scroll -dLCL -dLCLgtk2 scroll.lpr"/>
+</CONFIG>

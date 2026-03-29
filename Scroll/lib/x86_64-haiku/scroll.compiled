@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/boot/home/fpcupdeluxe/fpc/bin/x86_64-haiku/fpc.sh" Date="1773924136"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -Fi/boot/home/nfs/Pascal/Lazarus/NewScroll/lib/x86_64-haiku -Fu/boot/home/fpcupdeluxe/lazarus/components/synedit/units/x86_64-haiku/qt5 -Fu/boot/home/fpcupdeluxe/lazarus/lcl/units/x86_64-haiku/qt5 -Fu/boot/home/fpcupdeluxe/lazarus/lcl/units/x86_64-haiku -Fu/boot/home/fpcupdeluxe/lazarus/components/freetype/lib/x86_64-haiku -Fu/boot/home/fpcupdeluxe/lazarus/components/lazutils/lib/x86_64-haiku -Fu/boot/home/fpcupdeluxe/lazarus/packager/units/x86_64-haiku -Fu/boot/home/nfs/Pascal/Lazarus/NewScroll/ -FU/boot/home/nfs/Pascal/Lazarus/NewScroll/lib/x86_64-haiku/ -FE/boot/home/nfs/Pascal/Lazarus/NewScroll/ -o/boot/home/nfs/Pascal/Lazarus/NewScroll/scroll -dLCL -dLCLqt5 scroll.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

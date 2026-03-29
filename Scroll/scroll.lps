@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Optimized"/>
+    <Units>
+      <Unit>
+        <Filename Value="scroll.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Scrol"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="117"/>
+        <CursorPos X="4" Y="95"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/fpcupdeluxe/lazarus/lcl/interfaces/cocoa/cocoawsclipboard.pas"/>
+        <UnitName Value="CocoaWSClipboard"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="426"/>
+        <CursorPos Y="473"/>
+        <UsageCount Value="13"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Unix Tools/catp/catp.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="19"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.lfm"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="14" Y="5"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/lazarus/4.0/components/synedit/syneditmiscclasses.pp"/>
+        <UnitName Value="SynEditMiscClasses"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1786"/>
+        <CursorPos Y="1813"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/Users/liam/fpcupdeluxe/lazarus/lcl/interfaces/cocoa/cocoawsclipboard.pas"/>
+        <UnitName Value="CocoaWSClipboard"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="375"/>
+        <CursorPos Y="473"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="233" Column="15" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="232" Column="15" TopLine="213"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="213" Column="58" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="230" Column="16" TopLine="207"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="364" Column="3" TopLine="322"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="171" Column="3" TopLine="169"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="170" Column="3" TopLine="168"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="402" Column="3" TopLine="398"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="268" Column="3" TopLine="266"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="269" Column="3" TopLine="267"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="276" Column="3" TopLine="274"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="254" Column="3" TopLine="252"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="407" TopLine="396"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="267" Column="8" TopLine="252"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="266" Column="8" TopLine="251"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="350" Column="3" TopLine="348"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="236" Column="5" TopLine="234"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="235" Column="5" TopLine="233"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="218" Column="26" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="128" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="66" Column="4" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="415" Column="18" TopLine="205"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="346" Column="26" TopLine="271"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="72" Column="50" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="97" Column="11" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="264" Column="11" TopLine="221"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="426" Column="35" TopLine="379"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="427" Column="35" TopLine="380"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="426" Column="35" TopLine="379"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="384" Column="10" TopLine="379"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
