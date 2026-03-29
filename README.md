@@ -6,6 +6,7 @@ A cross-platform GUI text editor written in Pascal.
 <img width="785" height="1031" alt="Screenshot 2026-03-28 at 9 38 11 PM" src="https://github.com/user-attachments/assets/a92beab1-58ba-4c66-b34b-30596de7bde6" />
 
 
+
 Features =========================================
 
   Dark mode
@@ -19,5 +20,17 @@ Features =========================================
   Open terminal in current directory function
 
 ==================================================
+
+Tested on 
+
+  Linux (x86_64)
+
+  macOS (aarch64)
+
+  Haiku (x86_64)
+
+  FreeBSD (x86_64)
+
+  
 
 Simply open the .lpi file in Lazarus and compile.
