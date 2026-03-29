@@ -1,9 +1,9 @@
 # Scroll
 A cross-platform GUI text editor written in Pascal.
 
-<img width="785" height="1031" alt="Screenshot 2026-03-28 at 9 33 49 PM" src="https://github.com/user-attachments/assets/7be3a9b7-c41c-4224-a77c-a238003a1778" />
+<img width="785" height="1031" alt="Screenshot 2026-03-29 at 8 32 24 AM" src="https://github.com/user-attachments/assets/50009dfc-2af5-41fa-99b7-d3aff0c6a395" />
 
-<img width="785" height="1031" alt="Screenshot 2026-03-28 at 9 38 11 PM" src="https://github.com/user-attachments/assets/a92beab1-58ba-4c66-b34b-30596de7bde6" />
+<img width="785" height="1031" alt="Screenshot 2026-03-29 at 8 32 10 AM" src="https://github.com/user-attachments/assets/c8b62d6d-6034-46dd-8415-8b8635de3223" />
 
 
 
