@@ -6,11 +6,18 @@ A cross-platform GUI text editor written in Pascal.
 <img width="785" height="1031" alt="Screenshot 2026-03-28 at 9 38 11 PM" src="https://github.com/user-attachments/assets/a92beab1-58ba-4c66-b34b-30596de7bde6" />
 
 
-Features
+Features =========================================
+
   Dark mode
+
   Pascal syntax highlighting
+  
   Easy Replace
+  
   Toggleable Line Numbers
+  
   Open terminal in current directory function
+
+==================================================
 
 Simply open the .lpi file in Lazarus and compile.
