@@ -1,10 +1,10 @@
 object Scrol: TScrol
-  Left = 472
-  Height = 932
-  Top = 81
+  Left = 197
+  Height = 928
+  Top = 123
   Width = 651
   Caption = 'Scroll'
-  ClientHeight = 932
+  ClientHeight = 928
   ClientWidth = 651
   Constraints.MaxWidth = 1024
   Constraints.MinHeight = 200
@@ -12,11 +12,11 @@ object Scrol: TScrol
   Font.Name = 'Sans'
   Menu = MainMenu1
   SnapOptions.SnapToMonitor = True
-  LCLVersion = '4.5.0.0'
+  LCLVersion = '4.99.0.0'
   OnCreate = FormCreate
   inline SynEdit1: TSynEdit
     Left = 0
-    Height = 920
+    Height = 912
     Top = 0
     Width = 654
     Anchors = [akTop, akLeft, akRight, akBottom]
@@ -25,6 +25,7 @@ object Scrol: TScrol
     Font.Name = 'Monaco'
     Font.Pitch = fpFixed
     Font.Quality = fqNonAntialiased
+    Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
     TabOrder = 0
@@ -463,32 +464,37 @@ object Scrol: TScrol
     MaxUndo = 2048
     VisibleSpecialChars = [vscSpace, vscTabAtLast]
     ScrollBars = ssAutoBoth
-    SelectedColor.BackPriority = 50
     SelectedColor.ForePriority = 50
+    SelectedColor.BackPriority = 50
     SelectedColor.FramePriority = 50
     SelectedColor.BoldPriority = 50
     SelectedColor.ItalicPriority = 50
     SelectedColor.UnderlinePriority = 50
     SelectedColor.StrikeOutPriority = 50
+    SelectedColor.ExtendPastEol = True
+    IncrementColor.ExtendPastEol = False
     BracketHighlightStyle = sbhsBoth
-    BracketMatchColor.Background = clNone
     BracketMatchColor.Foreground = clNone
+    BracketMatchColor.Background = clNone
     BracketMatchColor.Style = [fsBold]
-    FoldedCodeColor.Background = clNone
     FoldedCodeColor.Foreground = clGray
+    FoldedCodeColor.Background = clNone
     FoldedCodeColor.FrameColor = clGray
-    MouseLinkColor.Background = clNone
     MouseLinkColor.Foreground = clBlue
-    LineHighlightColor.Background = clNone
+    MouseLinkColor.Background = clNone
     LineHighlightColor.Foreground = clNone
+    LineHighlightColor.Background = clNone
     TabWidth = 4
+    OnChange = SynEdit1Change
     OnStatusChange = SynEdit1StatusChange
     inline SynLeftGutterPartList1: TSynGutterPartList
       object SynGutterLineNumber1: TSynGutterLineNumber
         Width = 17
         MouseActions = <>
-        MarkupInfo.Background = clBlack
         MarkupInfo.Foreground = clWhite
+        MarkupInfo.Background = clBlack
+        MarkupInfoCurrentLine.Foreground = clNone
+        MarkupInfoCurrentLine.Background = clNone
         DigitCount = 2
         ShowOnlyLineNumbersMultiplesOf = 1
         ZeroStart = False
@@ -499,8 +505,9 @@ object Scrol: TScrol
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
-    Top = 914
+    Top = 910
     Width = 651
+    Anchors = [akLeft, akRight]
     Panels = <    
       item
         Width = 50
@@ -631,11 +638,13 @@ object Scrol: TScrol
       Caption = 'Project'
       object CompileMenuItem: TMenuItem
         Caption = 'Compile'
+        Enabled = False
         ShortCut = 16450
         OnClick = CompileMenuItemClick
       end
       object RunMenuItem: TMenuItem
         Caption = 'Run'
+        Enabled = False
         ShortCut = 16466
         OnClick = RunMenuItemClick
       end
@@ -648,21 +657,30 @@ object Scrol: TScrol
   end
   object SynPasSyn1: TSynPasSyn
     DefaultFilter = 'Pascal Files (*.pas,*.dpr,*.dpk,*.inc,*.p)|*.pas;*.dpr;*.dpk;*.inc,*.p]'
-    Enabled = False
     CommentAttri.Foreground = 16724814
+    CommentAttri.ExtendPastEol = True
+    CommentAnsiAttri.ExtendPastEol = True
+    CommentCurlyAttri.ExtendPastEol = True
+    CommentSlashAttri.ExtendPastEol = False
+    IDEDirectiveAttri.ExtendPastEol = True
     IdentifierAttri.Foreground = 16554316
     KeyAttri.Foreground = clWhite
     ModifierAttri.Foreground = clWhite
     NumberAttri.Foreground = 2458623
     StringAttri.Foreground = 16758911
+    StringAttri.ExtendPastEol = False
+    StringSingleAttri.ExtendPastEol = False
+    StringHashAttri.ExtendPastEol = False
+    StringCaretAttri.ExtendPastEol = False
+    StringBacktickAttri.ExtendPastEol = True
     ProcedureHeaderName.Foreground = clWhite
     DirectiveAttri.Foreground = clRed
+    DirectiveAttri.ExtendPastEol = True
     CompilerMode = pcmFPC
-    NestedComments = True
-    TypeHelpers = False
     ExtendedKeywordsMode = True
     StringMultilineMode = []
     PasDocKeyWord.Foreground = 10926080
+    NestedBracketAttribs = <>
     Left = 528
     Top = 784
   end

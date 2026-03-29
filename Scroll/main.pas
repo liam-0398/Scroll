@@ -54,6 +54,7 @@ type
     procedure DarkMenuItemClick(Sender: TObject);
     procedure FontMenuItemClick(Sender: TObject);
     procedure fileMenuClick(Sender: TObject);
+    procedure SynEdit1Change(Sender: TObject);
     procedure TerminalMenuItemClick(Sender: TObject);
     procedure NewMenuItemClick(Sender: TObject);
     procedure OpenMenuItemClick(Sender: TObject);
@@ -113,6 +114,10 @@ begin
         SynEdit1.Font.Name := 'Monospace';
         SynEdit1.Font.Size := 10;
       {$ENDIF}
+      {$IFDEF WINDOWS}
+      SynEdit1.Font.Name := 'Consolas';
+      SynEdit1.Font.Size := 10;
+      {$ENDIF}
 
       {$IFDEF DARWIN}
         SaveMenuItem.ShortCut := ShortCut(Ord('S'), [ssMeta]);
@@ -128,9 +133,7 @@ begin
         LineNumMenuItem.ShortCut := ShortCut(Ord('L'), [ssMeta]);
         FontMenuItem.ShortCut := ShortCut(Ord('F'), [ssMeta]);
         SynHighlightMenuItem.ShortCut := ShortCut(Ord('H'), [ssMeta]);
-      {$ENDIF}
-
-      {$IFDEF LINUX}
+      {$ELSE}
         SaveMenuItem.ShortCut := ShortCut(Ord('S'), [ssCtrl]);
         OpenMenuItem.ShortCut := ShortCut(Ord('O'), [ssCtrl]);
         NewMenuItem.ShortCut := ShortCut(Ord('N'), [ssCtrl]);
@@ -149,7 +152,7 @@ begin
 end;
 
 // MISC PROCEDURES
-
+      // COMPILE FUNCTIONS NEED WORK
 procedure compileTerm;
 var
   runcom: String;
@@ -272,9 +275,15 @@ procedure TScrol.TerminalMenuItemClick(Sender: TObject);
             p.Parameters.Add(currentDIR);
             p.Execute;
             p.Free;
-         {$ELSE}
+         {$ENDIF}
+         {$IFDEF WINDOWS}
+            p.Executable := 'cmd.exe';
+            p.CurrentDirectory := currentDIR;
+            p.Execute;
+            p.Free;
+         {$ENDIF}
+         {$IFDEF LINUX}
             p.Executable := '/usr/bin/xterm';
-           // p.Parameters.Add('-e');
             p.Execute;
             p.Free;
          {$ENDIF}
@@ -375,6 +384,11 @@ begin
 end;
 
 procedure TScrol.FileMenuClick(Sender: TObject);
+begin
+
+end;
+
+procedure TScrol.SynEdit1Change(Sender: TObject);
 begin
 
 end;
