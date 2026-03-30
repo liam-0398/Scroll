@@ -21,6 +21,8 @@ Features =========================================
 
 ==================================================
 
+Full Windows compilation support TBD
+
 Tested on 
 
   Linux (x86_64)
