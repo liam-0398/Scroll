@@ -1,7 +1,7 @@
 object Scrol: TScrol
-  Left = 197
+  Left = 52
   Height = 928
-  Top = 123
+  Top = 131
   Width = 651
   Caption = 'Scroll'
   ClientHeight = 928
@@ -611,9 +611,13 @@ object Scrol: TScrol
         Caption = '-'
       end
       object SynHighlightMenuItem: TMenuItem
-        Caption = 'Syntax Highlighting'
+        Caption = 'Pascal Highlighting'
         ShortCut = 16456
         OnClick = SynHighlightMenuItemClick
+      end
+      object CHighlightMenuItem: TMenuItem
+        Caption = 'C Highlighting'
+        OnClick = CHighlightMenuItemClick
       end
       object LineNumMenuItem: TMenuItem
         Caption = 'Line Numbers'
@@ -694,5 +698,9 @@ object Scrol: TScrol
     MaxFontSize = 0
     Left = 568
     Top = 792
+  end
+  object SynCppSyn1: TSynCppSyn
+    Left = 560
+    Top = 640
   end
 end

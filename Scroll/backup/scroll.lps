@@ -21,8 +21,8 @@
         <UsageCount Value="40"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="104"/>
-        <CursorPos X="9" Y="112"/>
-        <FoldState Value=" T7FB@ T3lC0U1 PWW0J"/>
+        <CursorPos X="54" Y="120"/>
+        <FoldState Value=" T7FB@ T3kg0U1 PWW0Z"/>
       </Unit>
       <Unit>
         <Filename Value="/fpcupdeluxe/lazarus/lcl/interfaces/cocoa/cocoawsclipboard.pas"/>

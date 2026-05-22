@@ -109,7 +109,7 @@ begin
 
     Caption := 'Scroll';
 
-        { Comments: medium forest green }
+      { Comments: medium forest green }
         SynCppSyn1.CommentAttri.Foreground    := 4038717;   { #3DA03D }
         SynCppSyn1.CommentAttri.ExtendPastEol := True;
 
